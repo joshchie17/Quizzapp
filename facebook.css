@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.navbar{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.171);
+    position: fixed;
+    top: 0;
+    z-index: 20;
+
+}
+
+.navbar h1{
+ font-size: 50px;
+ font-family: sans-serif;
+
+}
+.maincontent{
+    margin: auto;
+    margin-top: 6rem;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    /* position: static; */
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    
+
+
+
+.maincontent .post_card{
+    width: 400px;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+    
+}
+
+.left{
+    position: fixed;
+    left: 0;
+    top: 5rem;
+    height: 550px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.171);
+    z-index: 20px;
+   
+
+
+}
+.left h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.right{
+    position: fixed;
+    right: 0;
+    top: 5rem;
+    height: 550px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.171);
+    
+}
+ .right h1{
+    font-size: 40px;
+    font-family: sans-serif;
+ }
+  .centre{
+    centre: 0;
+    top: 5rem;
+    display: flex;
+    align-items: center;
+
+    
+    
+
+  }
+
